@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div</title>
+    <style>
+       div{
+        height: 200px;
+        width: 200px;
+        background-color: blueviolet;
+        position: absolute;
+        margin-left: 200px;
+        margin-top: 100px;
+        border-radius: 50%;
+        animation-name: colorAnimation;
+        animation-duration: 2s;
+        /* animation-timing-function: ease-in; */
+        animation-iteration-count: infinite;
+        animation-delay: 2s;
+        animation-direction: alternate;
+
+       }
+
+       @keyframes colorAnimation {
+         0% {left: 0px; background-color: aqua;}
+         25% {background-color: red;}
+         50%{background-color: green;}
+         100% {left: 500px; background-color: yellow;}
+       }
+       /* div:hover{
+        background-color: blue;
+        height: 250px;
+        width: 250px;
+
+       } */
+    </style>
+</head>
+<body>
+   <div></div>
+
+</body>
+</html>

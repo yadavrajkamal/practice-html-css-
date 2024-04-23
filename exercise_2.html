@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise2</title>
+    <style>
+        td{
+            border: 2px solid black;
+        }
+        table{
+            border: 2px solid black;
+        }
+        #main{
+            height: 300px;
+            width: 600px;
+            background-color: red;
+            border: 5px solid black;
+        }
+        .col1{
+            background-color: green;
+            height: 100px;
+            width: 200px;
+            float: left;
+        }
+        .col2{
+            background-color: blue;
+            height: 100px;
+            width: 200px;
+            float: left;
+        }
+        .col3{
+            background-color: blueviolet;
+            height: 100px;
+            width: 200px;
+            float: left;
+        }
+        .col4{
+            height: 100px;
+            width: 600px;
+            float: left;
+            background-color: beige;
+        }
+        .col5{
+            background-color: aqua;
+            height: 100px;
+            width: 300px;
+        }
+        .col6{
+            background-color: chartreuse;
+            height: 100px;
+            width: 300px;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>Create table </h1>
+    <table>
+        <tr>
+            <td>Quick</td>
+            <td colspan="2">Brown fox</td>
+            <td>jumps</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Over the</td>
+            <td>Lazy</td>
+            <td>Dog</td>
+            <td>and</td>
+        </tr>
+        <tr>
+            <td>then</td>
+            <td>it</td>
+            <td>fall</td>
+        </tr>
+        <tr>
+            <td colspan="3">prey to a lion</td>
+        </tr>
+    </table>
+<div id="main">
+    <div>
+        <div class="col1">A</div>
+        <div class="col2">B</div>
+        <div class="col3">C</div>
+    </div>
+    <div class="col4">D</div>
+    <div>
+        <div class="col5">E</div>
+        <div class="col6">F</div>
+    </div>
+</div>
+
+
+
+</body>
+</html>

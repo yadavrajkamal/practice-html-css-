@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-container{
+            background-color: palevioletred;
+            border: 2px solid red;
+            display: grid;
+            padding: 20px;
+            grid-template-columns: 300px 300px 300px;
+            /* gap: 10px; */
+            grid-template-rows: 100px 100px;
+
+
+            grid-template-areas: 
+            "box1 box1 box1"
+            "box2 box2 box3"
+            "box2 box2 box3";
+
+            width: 1000px;
+
+        }
+        .item{
+            background-color: orange;
+            margin: 5px;
+            padding: 10px;
+
+        }
+        .box1{
+            grid-area: box1;
+            background-color: aqua;
+        }
+        .box2{
+            grid-area: box2;
+            background-color: darkorange;
+        }
+        .box3{
+            grid-area: box3;
+            background-color: chartreuse;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+
+    <div class="item box1">1</div>
+    <div class="item box2">2</div>
+    <div class="item box3">3</div>
+   
+
+    </div>
+</body>
+</html>

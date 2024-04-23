@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise4 for audio and video</title>
+    <link rel="shortcut icon" href="https://www.svgrepo.com/show/13671/youtube.svg" type="image/x-icon">
+    <style>
+      body {
+        background-color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <marquee>Live Sale 20% Off</marquee>
+    <table border="2" width="800px" height="500px" align="center">
+      <tr bgcolor="blue">
+        <th>Subject</th>
+        <th>Mark</th>
+      </tr>
+      <tr>
+        <th>Hindi</th>
+        <th id="h"></th>
+      </tr>
+      <tr>
+        <th>English</th>
+        <th id="e"></th>
+      </tr>
+      <tr>
+        <th>Math</th>
+        <th id="m"></th>
+      </tr>
+      <tr>
+      <th>Physics</th>
+      <th id="p"></th>
+    </tr>
+      <tr>
+        <th>Chemistry</th>
+        <th id="c"></th>
+      </tr>
+      <tr>
+        <th>Total Number</th>
+        <th id="t"></th>
+      </tr>
+      <tr>
+        <th>Total Percentage%</th>
+        <th id="per"></th>
+      </tr>
+    </table>
+    <script>
+      var h=parseInt(prompt("Enter First Number"));
+      var e=parseInt(prompt("Enter second Number"));
+      var m=parseInt(prompt("Enter Third Number"));
+      var p=parseInt(prompt("Enter fourth Number"));
+      var c=parseInt(prompt("Enter Fifth Number"));
+      var t=h+e+m+p+c;
+      var per=t/5;
+      document.getElementById("h").innerHTML=h;
+      document.getElementById("e").innerHTML=e;
+      document.getElementById("m").innerHTML=m;
+      document.getElementById("p").innerHTML=p;
+      document.getElementById("c").innerHTML=c;
+      document.getElementById("t").innerHTML=t;
+      document.getElementById("per").innerHTML=per;
+
+
+    </script>
+    <!-- switch statement -->
+    <!-- <script>
+      var week=prompt("enter numebr b/w 1 to 7");
+      // var week=parseInt(week);
+      switch(week){
+        case 1:
+        document.write("Sunday");
+        break;
+        case 2:
+          document.write("Monday");
+          break;
+          case 3:
+            document.write("Tuesday");
+            break;
+            case 4:
+              document.write("Wednesday");
+              break;
+              case 5:
+                document.write("Thursday")
+                break;
+                case 6:
+                  document.write("Friday")
+                  break;
+                  case 7:
+                    document.write("Saturday")
+                    break;
+                    default:
+                      document.write("Please Enter the Current Number")
+                      break;
+      }
+    </script> -->
+    <script>
+    </script>
+    <!-- if else condition
+    <script>
+    // var a=prompt("Enter a Number");
+    // if(a>80){
+
+    //   document.write("Grade A");
+    // }
+    // else if(a>70){
+    //   document.write("Grade B");
+    // }
+    // else if(a>52){
+    //   document.write("Grade C");
+    // }
+    // else if(a>40 , a<52){
+    //   document.write("Grade D");
+    // }
+    // else {
+    //   documnent.write("Fail");
+    // }
+    var a=prompt("Enter first Number")
+    var b=prompt("Enter second Number")
+    if(a==b){
+      document.write("Both number are same")
+    }
+    else if(a>b){
+      document.write("a is grater than b")
+    }
+    else{
+      document.write("a is less than b")
+    }
+    </script> -->
+
+    <!-- <details>
+      <summary>
+        Artical
+      </summary>
+      <h1>This Is Rajkamal Yadav</h1>
+    </details> -->
+    <!-- <video height="240px" width="450px" controls autoplay>
+      <source src="movies.mp4.mp4" type="video/mp4" /></video
+    >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <video height="240px" width="450px" controls>
+      <source src="mov2.mp4.mp4" type="video/mp4" /></video
+    >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <video height="240px" width="450px" controls>
+      <source src="mov1.mp4.mp4" type="video/mp4" />
+    </video>
+    <script>
+      document.write("50+30=", 50 + 30);
+      document.write("<br>");
+      // String Operator
+      a = 10;
+      b = 15;
+      // (1)And operator
+      document.write(a & b);
+      // (2)OR operator
+      document.write(a | b);
+      // (3) XOR Operator
+      document.write(a);
+      document.write("<br>");
+      // left shift bitwise
+      a = 3;
+      b = 30;
+      document.write(b << a);
+      // Right shif bitwise
+      document.write("<br>");
+      a = 2;
+      b = 30;
+      document.write(b >> a);
+    </script> -->
+  </body>
+</html>
