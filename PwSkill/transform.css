@@ -1,0 +1,14 @@
+#Raj{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    translate: 100px;
+    transform: rotate(20deg) skew(20deg) scalex(2) scaley(2);
+}
+#Rajkamal{
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    translate: 500px;
+    transform: rotate3d(180deg);
+}

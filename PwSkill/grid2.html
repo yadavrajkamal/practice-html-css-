@@ -5,6 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grid</title>
     <style>
+       .parent{
+        background-color: aqua;
+        width: 1000px;
+        height: 500px;
+        border: 2px solid green;
+        padding: 25px;
+        display: grid;
+        grid-template-areas: 
+        "header header header header header header"
+        "menu content content content content ads"
+        "menu content content content content ads"
+        "menu content content content content ads"
+        "footer footer footer footer footer footer ";
+       }
+       .header{
+        grid-area: header;
+        background-color: chartreuse;
+        border: 2px solid red;
+        text-align: center;
+       }
+       .footer{
+        grid-area: footer ;
+        background-color: yellowgreen;
+        border: 2px solid red;
+        text-align: center;
+       }
+       .menu{
+        grid-area: menu;
+        background-color: blue;
+        border: 2px solid red;
+       }
+       .content{
+        grid-area: content;
+        background-color: tomato;
+        border: 2px solid red;
+        text-align: center;
+       }
+       .ads{
+        grid-area: ads;
+        background-color: chocolate;
+        border: 2px solid red;
+        text-align: center;
+       }
+       p:empty{
+        height: 50px;
+        width: 100px;
+        background-color: aqua;
+       }
+       div p:nth-child(2){
+        background-color: yellow;
+       }
        
     </style>
 </head>
@@ -26,10 +77,23 @@
             <h1>content</h1>
             <p>Some content</p>
         </div>
-        <div class="ads"></div>
+        <div class="ads">
+            <div>ads1</div>
+            <div>ads2</div>
+            <div>ads3</div>
+            <div>ads4</div>
+        </div>
         <div class="footer">
             <h1>Footer</h1>
         </div>
+    </div>
+    <p></p>
+    <div>
+        <p>Hiiii</p>
+        <p>This is </p>
+        <p> Rajkamal</p>
+        <p>Here</p>
+        <p>Thanks</p>
     </div>
 </body>
 </html>

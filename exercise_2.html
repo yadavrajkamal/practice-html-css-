@@ -52,10 +52,27 @@
             width: 300px;
             float: left;
         }
+        /* this is tag selector */
+        p{
+            background-color: aqua;
+        }
+        /* This is id selector */
+        #unique{
+               background-color: chartreuse;
+        }
+        .Raj{
+            background-color: yellow;
+        }
+        /* using group selector */
+        div>p{
+            background-color: green;
+        }
+
+
     </style>
 </head>
 <body>
-    <h1>Create table </h1>
+    /* <h1>Create table </h1>
     <table>
         <tr>
             <td>Quick</td>
@@ -88,8 +105,25 @@
         <div class="col5">E</div>
         <div class="col6">F</div>
     </div>
+</div> */
+<!-- we understand below element id and class selector -->
+<p id="unique">Hiii This Is Rajkamal Here</p>
+<p class='Raj'>Hiii This Is Rajkamal Here</p>
+<p class="Raj">Hiii This Is Rajkamal Here</p>
+<p id="unique">Hiii This Is Rajkamal Here</p>
+<h1 id="unique">Hiii This is Rajkamal Here</h1>
+<!-- we understand below group selector -->
+<div>
+    <span>Hiii This is Raj</span>
+    <h1>Hiii This is Anil</h1>
+    <p>
+        <span>Radhe Radhe</span>
+    </p>
 </div>
-
+<div>
+    <span>Welcome to Aiitc new era</span>
+    <h1>Hiii This is Yadav</h1>
+</div>
 
 
 </body>
